@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #F1E9D2; 
+  color: #4B3621; 
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+header {
+  background-color: #4B3621; 
+  color: #F1E9D2; 
+  padding: 20px 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9EB9D4; 
+  border: 1px solid #4B3621;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+section img {
+  width: 150px;
+  height: 150px; 
+  border-radius: 70%; 
+  border: none;
+  object-fit: cover;
+}
+
+section h2 {
+  color: #33658A; 
+  border-bottom: 2px solid #33658A;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #33658A; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+section ul li a i {
+  font-size: 2rem; /* Adjust the icon size */
+  color: #4B3621; /* Icon color */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+section ul li a:hover i {
+  transform: scale(1.2); /* Zoom effect on hover */
+  color: #33658A; /* Change color on hover */
+}
+
+/* Corrected and completed .list-inline rule */
+.list-inline > li {
+  display: inline-block; /* Changed from 'disp' to 'display' */
+  padding: 0 20px; /* Added spacing between list items */
+}
+
